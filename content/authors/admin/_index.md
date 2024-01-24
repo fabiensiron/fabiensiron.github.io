@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Fabien Siron
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Fabien
+last_name: Siron
 
 # Status emoji
 status:
@@ -17,73 +17,138 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: R&D Software Engineer | Teacher
+## Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Asterios Technologies
+    url: https://www.asterios-technologies.com
+  - name: EPITA
+    url: https://www.epita.fr
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Real-time Systems
+  - Cyber-Physical Systems
+  - Reactive languages
+  - Formal Methods
+#  - Artificial Intelligence
+#  - Computational Linguistics
+#  - Information Retrieval
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Science
+      institution: Inria & Université Cote d'Azur
+      year: 2023
+    - course: MSc in Computer Science
+      institution: EPITA
+      year: 2019
+#    - course: BSc in Artificial Intelligence
+#      institution: Massachusetts Institute of Technology
+#      year: 2008
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Programming
     items:
-      - name: Python
+      - name: OCaml
         description: ''
         percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
+        icon: code
+        icon_pack: fas
+      - name: C
         description: ''
         percent: 100
-        icon: chart-line
+        icon: code
         icon_pack: fas
-      - name: SQL
+      - name: C++
         description: ''
-        percent: 40
-        icon: database
+        percent: 70
+        icon: code
         icon_pack: fas
-  - name: Hobbies
+      - name: Python
+        description: ''
+        percent: 100
+        icon: code
+        icon_pack: fas
+      - name: Lustre
+        description: ''
+        percent: 85
+        icon: code
+        icon_pack: fas
+      - name: Esterel
+        description: ''
+        percent: 80
+        icon: code
+        icon_pack: fas
+  - name: Skills
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Cyber-Physical Systems
+        description: ''
+        percent: 70
+        icon: microchip
+        icon_pack: fas
+      - name: Real-Time
+        description: ''
+        percent: 95
+        icon: clock
+        icon_pack: fas
+      - name: Synchronous-reactive languages
+        description: ''
+        percent: 95
+        icon: stopwatch
+        icon_pack: fas
+      - name: Virtualization
+        description: ''
+        percent: 70
+        icon: server
+        icon_pack: fas
+      - name: Formal Methods
+        description: ''
+        percent: 80
+        icon: subscript
+        icon_pack: fas
+  - name: Hobbies
+    color: '#9e0e02'
+    color_border: '#9e0e23'
+    items:
+      - name: Music
+        description: ''
+        percent: 90
+        icon: music
+        icon_pack: fas
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 70
         icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        percent: 60
         icon: camera-retro
+        icon_pack: fas
+  - name: Languages
+    color: '#8eac02'
+    color_border: '#80bf23'
+    items:
+      - name: French
+        description: ''
+        percent: 100
+        icon: language
+        icon_pack: fas
+      - name: English
+        description: ''
+        percent: 80
+        icon: language
         icon_pack: fas
 
 # Social/Academic Networking
@@ -120,5 +185,19 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a software engineer in research and development,
+specialized in safety-critical real-time software. I have just
+finalized my PhD thesis on real-time language
+and formal verification done
+in partnership between **Inria** (*Kairos* team) and
+the **Krono-Safe** company (coming from the **CEA**, now part of the
+of the **Safran** group). I am also
+part-time lecturer at **Epita**, an engineering school
+specialized in computer science, in the *embedded and real-time
+real-time* speciality. My main area of interest is the *security*
+and *safety* of software applied to
+to real-time systems, using formal methods.
+
 {style="text-align: justify;"}
+
+

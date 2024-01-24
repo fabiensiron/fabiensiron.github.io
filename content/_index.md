@@ -42,14 +42,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+
   - block: experience
     content:
       title: Experience
@@ -62,98 +55,169 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: R&D Software Engineer
+          company: Asterios Technologies
+          company_logo: ks
+          location: Massy
+          date_start: '2019-09-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+            Take part of the *Checker* team, then the *Core* team:
+            * Design and prototyping of formal verification tool dedicated
+              to the *PsyC* language.
+            * Take part in the development of an automatic validation tool
+              --- *Asterios Checker* --- for the compilations performed by
+              the compiler produced by the company in a context of avionic
+              certification.
+        - title: Adjunct Teacher
+          company: EPITA
+          company_logo: epita
+          location: Le Kremlin-Bicetre
+          date_start: '2021-06-01'
+          date_end: ''
+          description: |2-
+            Teaching lectures *real-time design* and *test & validation* for the
+            embedded and real-time speciality at EPITA (level M1/M2).
+        - title: PhD Engineer
+          company: Asterios Technologies & Inria
+          company_logo: ks_with_inria
+          location: Massy
+          date_start: '2020-12-01'
+          date_end: '2023-12-11'
+          description: |2-
+            Preparation of my PhD thesis about formal verification methodology
+            for the *PsyC* language funded by
+            *Asterios Technologies* (formerly *Krono-Safe*) and supervised
+            by Inria.
+        - title: Internship
+          company: Asterios Technologies
+          company_logo: ks
+          location: Massy
+          date_start: '2019-02-01'
+          date_end: '2019-08-01'
+          description: |2-
+            Design and prototyping of an incremental code generation
+            methodology based on *Model-Based Design* approaches.
+        - title: Internship
+          company: Thales Research & Technologies
+          company_logo: thales
+          location: Palaiseau
+          date_start: '2017-09-01'
+          date_end: '2017-12-31'
+          description: |2-
+            Design of a mixed criticality platform, including vision and
+            telecom applications, based on virtualization.
+        - title: Teaching Assistant
+          company: EPITA
+          company_logo: epita
+          location: Le Kremlin-Bicetre
+          date_start: '2016-09-01'
+          date_end: '2017-03-01'
+          description: |2-
+            Supervision and corrections of practical sessions about programming
+            for students in the *cycle préparatoire* of EPITA.
+        - title: Research internship
+          company: Laboratoire Systèmes & Sécurité (LSE), EPITA
+          company_logo: epita
+          location: Le Kremlin-Bicetre
+          date_start: '2016-06-01'
+          date_end: '2016-08-30'
+          description: |2-
+            Initial design and implementation of **Netlink** support
+            in the **Linux** system tracer: **strace**. The project was
+            funded by the *Google Summer of Code* program.
+    # - title: CEO
+    #   company: GenCoin
+    #   company_url: ''
+    #   company_logo: org-gc
+    #   location: California
+    #   date_start: '2021-01-01'
+    #   date_end: ''
+    #   description: |2-
+    #       Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+    #       * Analysing
+    #       * Modelling
+    #       * Deploying
+    # - title: Professor of Semiconductor Physics
+    #   company: University X
+    #   company_url: ''
+    #   company_logo: org-x
+    #   location: California
+    #   date_start: '2016-01-01'
+    #   date_end: '2020-12-31'
+    #   description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+  # - block: accomplishments
+  #   content:
+  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #     title: 'Accomplish&shy;ments'
+  #     subtitle:
+  #     # Date format: https://docs.hugoblox.com/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `item` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - certificate_url: https://www.coursera.org
+  #         date_end: ''
+  #         date_start: '2021-01-25'
+  #         description: ''
+  #         icon: coursera
+  #         organization: Coursera
+  #         organization_url: https://www.coursera.org
+  #         title: Neural Networks and Deep Learning
+  #         url: ''
+  #       - certificate_url: https://www.edx.org
+  #         date_end: ''
+  #         date_start: '2021-01-01'
+  #         description: Formulated informed blockchain models, hypotheses, and use cases.
+  #         icon: edx
+  #         organization: edX
+  #         organization_url: https://www.edx.org
+  #         title: Blockchain Fundamentals
+  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #       - certificate_url: https://www.datacamp.com
+  #         date_end: '2020-12-21'
+  #         date_start: '2020-07-01'
+  #         description: ''
+  #         icon: datacamp
+  #         organization: DataCamp
+  #         organization_url: https://www.datacamp.com
+  #         title: 'Object-Oriented Programming in R'
+  #         url: ''
+  #   design:
+  #     columns: '2'
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
   - block: portfolio
     id: projects
     content:
@@ -171,38 +235,40 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Asterios Tech.
+          tag: asterios
+        - name: EPITA
+          tag: EPITA
         - name: Other
-          tag: Demo
+          tag: other
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
+      columns: '2'
+      view: compact
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
   - block: collection
-    id: featured
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
+      title: Main publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -217,16 +283,56 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Recent Talks
       filters:
         folders:
           - event
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
+  - block: contact
+    id: teaching
     content:
-      title: Popular Topics
+      title: Teaching
+      text: |-
+        **2022/2023**
+          * [Test and Validation](https://www.epita.fr/diplome-ingenieur/cycle-ingenieur/les-majeures/#majeure-gistre), *Embedded & Real-time speciality* (GISTRE, M1/M2), EPITA
+          * [Real-time Design](https://www.epita.fr/diplome-ingenieur/cycle-ingenieur/les-majeures/#majeure-gistre), *Embedded & Real-time speciality* (GISTRE, M1/M2), EPITA
+
+        **2021/2022**
+          * [Test and Validation](https://www.epita.fr/diplome-ingenieur/cycle-ingenieur/les-majeures/#majeure-gistre), *Embedded & Real-time speciality* (GISTRE, M1/M2), EPITA
+          * [Real-time Design](https://www.epita.fr/diplome-ingenieur/cycle-ingenieur/les-majeures/#majeure-gistre), *Embedded & Real-time speciality* (GISTRE, M1/M2), EPITA
+
+        **2016/2017**
+          * [Practical Sessions on Programming](https://www.epita.fr/diplome-ingenieur/cycle-ingenieur/cycle-preparatoire/#2eme-annee-de-prepa-info-spe-block_bd60180abf5ec3c8f8af4c953da4529f), *"Cycle Préparatoire"* (L2), EPITA
+
+    design:
+      columns: '2'
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
+  - block: markdown
+    content:
+      title: Visited Places
+      subtitle: Scientific & Cultural trips
+      text: >
+          <iframe
+            width="100%"
+            height="480"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/d/embed?mid=1W5pkEuH7rY2GZlqMyLCwH8rAIdDgES0&ehbc=2E312F"
+            allowfullscreen>
+          </iframe>
     design:
       columns: '2'
   - block: contact
@@ -235,49 +341,48 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: fabien.siron@epita.fr
+      # phone: 888 888 88 88
+      # appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        street: 16 avenue Carnot
+        city: Massy
+        postcode: '91300'
+        country: France
+        # region: CA
+        # country_code: US
+      #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      #office_hours:
+      #  - 'Monday 10:00 to 13:00'
+      #  - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+        latitude: '48.729168116714966'
+        longitude: '2.266332168976884'
+      # contact_links:
+      #   - icon: twitter
+      #     icon_pack: fab
+      #     name: DM Me
+      #     link: 'https://twitter.com/Twitter'
+      #   - icon: skype
+      #     icon_pack: fab
+      #     name: Skype Me
+      #     link: 'skype:echo123?call'
+      #   - icon: video
+      #     icon_pack: fas
+      #     name: Zoom Me
+      #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
