@@ -10,8 +10,8 @@ first_name: Fabien
 last_name: Siron
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -28,7 +28,7 @@ organizations:
     url: https://www.epita.fr
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include real-time systems, and more broadly, cyber-physical systems, and formal methods.
 
 # Interests to show in About widget
 interests:
@@ -43,11 +43,11 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Computer Science
+    - course: PhD degree in Computer Science
       institution: Inria & Université Cote d'Azur
       year: 2023
-    - course: MSc in Computer Science
-      institution: EPITA
+    - course: Engineer's degree in Computer Science
+      institution: École pour l'informatique et les techniques avancées (EPITA)
       year: 2019
 #    - course: BSc in Artificial Intelligence
 #      institution: Massachusetts Institute of Technology
@@ -107,7 +107,7 @@ skills:
         percent: 95
         icon: stopwatch
         icon_pack: fas
-      - name: Virtualization
+      - name: Virtualization and Operating Systems
         description: ''
         percent: 70
         icon: server
@@ -116,6 +116,10 @@ skills:
         description: ''
         percent: 80
         icon: subscript
+        icon_pack: fas
+      - name: Artificial Intelligence
+        percent: 20
+        icon: brain
         icon_pack: fas
   - name: Hobbies
     color: '#9e0e02'
@@ -159,21 +163,21 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=tlI377MAAAAJ&hl=en&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/fabiensiron
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/fabien-siron-2a3193b2/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -187,13 +191,13 @@ highlight_name: true
 
 I am a software engineer in research and development,
 specialized in safety-critical real-time software. I have just
-finalized my PhD thesis on real-time language
-and formal verification done
+finalized my PhD thesis - in the fields of real-time language
+and formal verification - done
 in partnership between **Inria** (*Kairos* team) and
 the **Krono-Safe** company (coming from the **CEA**, now part of the
 of the **Safran** group). I am also
 part-time lecturer at **Epita**, an engineering school
-specialized in computer science, in the *embedded and real-time
+specialized in computer science, in the *embedded and
 real-time* speciality. My main area of interest is the *security*
 and *safety* of software applied to
 to real-time systems, using formal methods.
