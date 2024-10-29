@@ -3,7 +3,7 @@
 title: Fabien Siron
 
 # Name pronunciation (optional)
-# name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Fabien Siron
 
 # Full name (for SEO)
 first_name: Fabien
@@ -18,7 +18,6 @@ superuser: true
 
 # Role/position/tagline
 role: R&D Software Engineer | Teacher
-## Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -28,17 +27,14 @@ organizations:
     url: https://www.epita.fr
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include real-time systems, and more broadly, cyber-physical systems, and formal methods.
+bio: My interests include real-time systems, and more broadly, cyber-physical systems, and formal methods.
 
 # Interests to show in About widget
 interests:
   - Real-time Systems
   - Cyber-Physical Systems
-  - Reactive languages
+  - Synchronous languages
   - Formal Methods
-#  - Artificial Intelligence
-#  - Computational Linguistics
-#  - Information Retrieval
 
 # Education to show in About widget
 education:
@@ -47,11 +43,20 @@ education:
       institution: Inria & Université Cote d'Azur
       year: 2023
     - course: Engineer's degree in Computer Science
-      institution: École pour l'informatique et les techniques avancées (EPITA)
+      institution: École pour l'informatique et les techniques avancées
       year: 2019
-#    - course: BSc in Artificial Intelligence
-#      institution: Massachusetts Institute of Technology
-#      year: 2008
+
+experience:
+  postes:
+  - poste: R&D Software engineer
+    institution: Asterios Technologies, Safran
+    year: since 2019
+  - poste: Part-time teacher
+    institution: École pour l'informatique et les techniques avancées
+    year: since 2022
+  #- poste: PhD thesis (CIFRE)
+  #  institution: Asterios Technologies, Safran & Inria
+  #  year: 2020-2023
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -118,7 +123,7 @@ skills:
         icon: subscript
         icon_pack: fas
       - name: Artificial Intelligence
-        percent: 20
+        percent: 10
         icon: brain
         icon_pack: fas
   - name: Hobbies
@@ -132,12 +137,12 @@ skills:
         icon_pack: fas
       - name: Hiking
         description: ''
-        percent: 70
+        percent: 60
         icon: person-hiking
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 60
+        percent: 50
         icon: camera-retro
         icon_pack: fas
   - name: Languages
@@ -199,7 +204,7 @@ of the **Safran** group). I am also
 part-time lecturer at **Epita**, an engineering school
 specialized in computer science, in the *embedded and
 real-time* speciality. My main area of interest is the *security*
-and *safety* of software applied to
+and *safety* of software applied
 to real-time systems, using formal methods.
 
 {style="text-align: justify;"}
