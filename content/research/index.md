@@ -46,6 +46,7 @@ sections:
         - **Industrial supervisers**: Damien Chabrol and Amira Methni from *Krono-Safe* (now called *Asterios Technologies*).
         - **Reviewers**: Reinhard Von Hanxleden from *Kiel University* and Pierre-Loïc Garoche from *École Nationale de l’Aviation Civile*.
         - **Examiners**: Timothy Bourke from *Centre Inria de Paris*.
+        - **Slides**: [link](../uploads/slides_thesis.pdf)
         ## Abstract
         Safety-critical real-time systems have to respect strict timing
         constraints. Thus, timing constraints must be considered throughout the software

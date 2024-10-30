@@ -1,23 +1,22 @@
 ---
 title: Pegase
-summary: Conception d’un simulateur de circuits numériques accéléré grâce à une unité de calcul graphique (**GPU**). L’outil génère des clusters au niveau gate-level ordonnancé et synchronisé avec des barrières temporelles. Il est implémenté en Python, **C++** avec des kernels **GPU** utilisant **OpenCL**.
-tags:
-  - EPITA
+summary: "Design and implementation of a digital circuit simulator accelerated by a graphics processing unit (**GPU**). The tool generates scheduled gate-level clusters synchronized with time barriers. It is implemented in **Python**, **C++** with **GPU** kernels using **OpenCL**. This project was my end-of-studies engineering project."
 date: '2019-02-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://bitbucket.org/Saruta_/gpgpu_accelerated_gl_simulator/'
 
-#image:
+image:
 #  caption: Photo by rawpixel on Unsplash
-#  focal_point: Smart
+  placement: 3
+  focal_point: Smart
 
 # links:
 #   - icon: twitter
 #     icon_pack: fab
 #     name: Follow
 #     url: https://twitter.com/georgecushen
-url_code: ''
+url_code: 'https://bitbucket.org/Saruta_/gpgpu_accelerated_gl_simulator/'
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -30,4 +29,4 @@ url_video: ''
 # slides: example
 ---
 
-Conception d’un simulateur de circuits numériques accéléré grâce à une unité de calcul graphique (**GPU**). L’outil génère des clusters au niveau gate-level ordonnancé et synchronisé avec des barrières temporelles. Il est implémenté en Python, **C++** avec des kernels **GPU** utilisant **OpenCL**.
+Design and implementation of a digital circuit simulator accelerated by a graphics processing unit (**GPU**). The tool generates scheduled gate-level clusters synchronized with time barriers. It is implemented in **Python**, **C++** with GPU kernels using **OpenCL**. This project was my end-of-studies engineering project.

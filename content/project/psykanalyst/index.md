@@ -1,8 +1,6 @@
 ---
 title: PsykAnalyst
-summary: "Implémentation de la méthodologie proposée par ma thèse de doctorat : un outil de vérification formelle pour le langage **PsyC** basé sur des outils de model-checking **SAT** et **BDD**. Le projet est implémenté essentiellement en **OCaml** et utilise fortement le langage synchrone **Lustre**."
-tags:
-  - asterios
+summary: "Implementation of the methodology proposed in my doctoral thesis: a formal verification tool for the PsyC language based on **SAT** and **BDD** model-checkers. The project is implemented mainly in **OCaml** and makes extensive use of the synchronous language **Lustre**, in particular as an intermediate representation."
 date: '2023-12-31T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -30,4 +28,4 @@ url_video: ''
 # slides: example
 ---
 
-Implémentation de la méthodologie proposée par ma thèse de doctorat : un outil de vérification formelle pour le langage **PsyC** basé sur des outils de model-checking **SAT** et **BDD**. Le projet est implémenté essentiellement en **OCaml** et utilise fortement le langage synchrone **Lustre**.
+Implementation of the methodology proposed in my doctoral thesis: a formal verification tool for the PsyC language based on **SAT** and **BDD** model-checkers. The project is implemented mainly in **OCaml** and makes extensive use of the synchronous language **Lustre**, in particular as an intermediate representation.

@@ -1,23 +1,22 @@
 ---
 title: CLOCK
-summary: CLOCK (Copilot of Logical Operational Constraint Kernels), est une implémentation d’un simulateur **CCSL** basé sur un solveur **SAT** avec plusieurs heuristiques. Le projet est implémenté en **OCaml** et est compatible avec le format **VCD** et l’outil **GtkWave**. Il est aussi possible de générer des observateurs synchrones en **Lustre**.
-tags:
-  - other
+summary: "CLOCK (Copilot of Logical Operational Constraint Kernels) is an implementation of a **CCSL** simulator based on a **SAT** solver with several heuristics. The project is implemented in **OCaml** and is compatible with the **VCD** format and the **GtkWave** tool. It is also possible to generate synchronous observers in Lustre."
 date: '2021-12-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'http://www.bitbucket.org/Saruta_/clock/'
 
-#image:
+image:
 #  caption: Photo by rawpixel on Unsplash
-#  focal_point: Smart
+  focal_point: Smart
+  placement: 3
 
 # links:
 #   - icon: twitter
 #     icon_pack: fab
 #     name: Follow
 #     url: https://twitter.com/georgecushen
-url_code: ''
+url_code: 'https://bitbucket.org/Saruta_/clock/'
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -30,4 +29,4 @@ url_video: ''
 # slides: example
 ---
 
-CLOCK (Copilot of Logical Operational Constraint Kernels), est une implémentation d’un simulateur **CCSL** basé sur un solveur **SAT** avec plusieurs heuristiques : simulation aléatoire ou non, lookahead… Le projet est implémenté en **OCaml** et est compatible avec le format **VCD** et l’outil **GtkWave**. Il est aussi possible de générer des observateurs synchrones en **Lustre**.
+CLOCK (Copilot of Logical Operational Constraint Kernels) is an implementation of a **CCSL** simulator based on a **SAT** solver with several heuristics. The project is implemented in **OCaml** and is compatible with the **VCD** format and the **GtkWave** tool. It is also possible to generate synchronous observers in Lustre.
