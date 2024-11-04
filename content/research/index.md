@@ -34,6 +34,8 @@ sections:
         participate in the design of a **validation tool** (in the context of
         **Krono-Safe**), verifying implementation artifacts such as the
         scheduling plan, or the sizing of communications.
+
+        **university application** (*qualification* CNU): : [link](../uploads/cnu.pdf)
     design:
       columns: '2'
   - block: markdown
