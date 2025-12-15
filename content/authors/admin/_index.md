@@ -17,46 +17,64 @@ last_name: Siron
 superuser: true
 
 # Role/position/tagline
-role: R&D Software Engineer | Teacher
+role: Research Engineer | Lecturer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Asterios Technologies
+  - name: Asterios Technologies (formerly)
     url: https://www.asterios-technologies.com
+  - name: CEA List
+    url: https://list.cea.fr/en/page/frama-c/
   - name: EPITA
     url: https://www.epita.fr
 
+
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include real-time systems, and more broadly, cyber-physical systems, and formal methods.
+bio: My interests include real-time systems (more broadly cyber-physical systems) and formal methods.
 
 # Interests to show in About widget
 interests:
-  - Real-time Systems
   - Cyber-Physical Systems
   - Synchronous languages
   - Formal Methods
+  - Real-Time
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD degree in Computer Science
-      institution: Inria & Université Cote d'Azur
+      institution: Inria - Université Côte d'Azur
       year: 2023
     - course: Engineer's degree in Computer Science
-      institution: École pour l'informatique et les techniques avancées
+      institution: Embedded & Real-Time specialization - EPITA
       year: 2019
 
 experience:
   postes:
-  - poste: R&D Software engineer
-    institution: Asterios Technologies, Safran
-    year: since 2019
-  - poste: Part-time teacher
-    institution: École pour l'informatique et les techniques avancées
+  - poste: Research Engineer
+    institution: Software Safety & Security Laboratory - CEA List
+    year: since 2025
+  - poste: Part-time Lecturer
+    institution: Embedded & Real-Time Systems specialization - EPITA
     year: since 2022
+  - poste: Software Engineer
+    institution: Asterios Technologies - Safran Group
+    year: 2019-2025
   #- poste: PhD thesis (CIFRE)
   #  institution: Asterios Technologies, Safran & Inria
   #  year: 2020-2023
+
+academic:
+  services:
+  - position: Program Committee
+    conference: Euro Conference on Real-Time Systems
+    year: ECRTS'26
+  - position: Program Committee
+    conference: Real-Time Networks and Systems
+    year: RTNS'25
+  - position: Artifact Committee
+    conference: Software on Language Engineering
+    year: SLE'25
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -78,21 +96,21 @@ skills:
         percent: 70
         icon: code
         icon_pack: fas
-      - name: Python
-        description: ''
-        percent: 100
-        icon: code
-        icon_pack: fas
-      - name: Lustre
-        description: ''
-        percent: 85
-        icon: code
-        icon_pack: fas
-      - name: Esterel
-        description: ''
-        percent: 80
-        icon: code
-        icon_pack: fas
+      #- name: Python
+      #  description: ''
+      #  percent: 100
+      #  icon: code
+      #  icon_pack: fas
+      #- name: Lustre/Esterel
+      #  description: ''
+      #  percent: 85
+      #  icon: code
+      #  icon_pack: fas
+      #- name: Esterel
+      #  description: ''
+      #  percent: 80
+      #  icon: code
+      #  icon_pack: fas
   - name: Skills
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -102,30 +120,30 @@ skills:
         percent: 70
         icon: microchip
         icon_pack: fas
-      - name: Real-Time
-        description: ''
-        percent: 95
-        icon: clock
-        icon_pack: fas
+      #- name: Real-Time
+      #  description: ''
+      #  percent: 95
+      #  icon: clock
+      #  icon_pack: fas
       - name: Synchronous-reactive languages
         description: ''
         percent: 95
         icon: stopwatch
         icon_pack: fas
-      - name: Virtualization and Operating Systems
-        description: ''
-        percent: 70
-        icon: server
-        icon_pack: fas
+      #- name: Virtualization and Operating Systems
+      #  description: ''
+      #  percent: 70
+      #  icon: server
+      #  icon_pack: fas
       - name: Formal Methods
         description: ''
         percent: 80
         icon: subscript
         icon_pack: fas
-      - name: Artificial Intelligence
-        percent: 10
-        icon: brain
-        icon_pack: fas
+      #- name: Artificial Intelligence
+      #  percent: 5
+      #  icon: brain
+      #  icon_pack: fas
   - name: Hobbies
     color: '#9e0e02'
     color_border: '#9e0e23'
@@ -140,11 +158,11 @@ skills:
         percent: 60
         icon: person-hiking
         icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 50
-        icon: camera-retro
-        icon_pack: fas
+      #- name: Photography
+      #  description: ''
+      #  percent: 50
+      #  icon: camera-retro
+      #  icon_pack: fas
   - name: Languages
     color: '#8eac02'
     color_border: '#80bf23'
@@ -194,18 +212,19 @@ social:
 highlight_name: true
 ---
 
-I am a software engineer in research and development,
-specialized in safety-critical real-time software. I have just
-finalized my PhD thesis - in the fields of real-time language
-and formal verification - done
-in partnership between **Inria** (*Kairos* team) and
-the **Krono-Safe** company (coming from the **CEA**, now part of the
-of the **Safran** group). I am also
-part-time lecturer at **Epita**, an engineering school
-specialized in computer science, in the *embedded and
-real-time* speciality. My main area of interest is the *security*
-and *safety* of software applied
-to real-time systems, using formal methods.
+I am a Research Engineer at the *Software Safety and Security
+Laboratory* of the **CEA List** Institute, where I work on
+the formal verification of safety-critical real-time systems
+in the context of the **Frama-C** platform.
+I hold a PhD in Computer Science, focusing on synchronous languages
+and formal verification, conducted in collaboration with **Inria**
+(KAIROS team) and **Asterios Technologies**, a **CEA** spinoff now
+part of the **SAFRAN** group.
+In addition, I am a part-time lecturer at
+**EPITA**, teaching in the Embedded and Real-Time Systems
+specialization, GISTRE.  My research interests lie at the intersection
+of safety and security for real-time software, with a focus on
+formal methods and their industrial applications.
 
 {style="text-align: justify;"}
 

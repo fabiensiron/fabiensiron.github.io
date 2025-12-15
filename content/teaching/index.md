@@ -9,6 +9,9 @@ sections:
     content:
       title: Teaching
       text: |-
+        **2025**
+          * [Test and Validation](https://www.epita.fr/diplome-ingenieur/cycle-ingenieur/les-majeures/#majeure-gistre), *Embedded & Real-time speciality* (GISTRE, M2), EPITA
+
         **2024**
           * [Test and Validation](https://www.epita.fr/diplome-ingenieur/cycle-ingenieur/les-majeures/#majeure-gistre), *Embedded & Real-time speciality* (GISTRE, M2), EPITA
 

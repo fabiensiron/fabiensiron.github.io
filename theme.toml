@@ -47,3 +47,8 @@ features = ["page builder", "widgets", "themes", "search", "research publication
   name = ""
   homepage = ""
   repo = ""
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.111.0'

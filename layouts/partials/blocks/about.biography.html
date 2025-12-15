@@ -23,7 +23,7 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <!-- About widget -->
-<div class="row">
+<div class="row no-gutters">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
@@ -51,13 +51,14 @@
 
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
 
-        {{ range $person.organizations }}
         <h3>
+	  {{ range $person.organizations }}
+          ·
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
           <span>{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
+	  {{ end }}
         </h3>
-        {{ end }}
       </div>
 
       <ul class="network-icon" aria-hidden="true">
@@ -85,7 +86,7 @@
 
     </div>
   </div>
-  <div class="col-12 col-lg-8">
+  <div class="col-13 col-lg-8 no-gutters">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ with $block.content.title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
@@ -96,22 +97,7 @@
     </div>
     {{ end }}
 
-    <div class="row">
-
-      {{ with $person.interests }}
-      <div class="col-md-5">
-        <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
-        <ul class="ul-interests fa-ul mb-0">
-          {{ range . }}
-          <li>
-            <i class="fa-li fa-solid fa-book-open"></i>
-            {{ . | markdownify | emojify }}
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-
+    <div class="row no-gutters">
       {{ with $person.education }}
       <div class="col-md-7">
         <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
@@ -129,8 +115,22 @@
       </div>
       {{ end }}
 
+      {{ with $person.interests }}
+      <div class="col-md">
+        <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
+        <ul class="ul-interests fa-ul mb-0">
+          {{ range . }}
+          <li>
+            <i class="fa-li fa-solid fa-book-open"></i>
+            {{ . | markdownify | emojify }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
     </div>
-    <div class="row">
+    <div class="row  no-gutters">
       {{ with $person.experience }}
       <div class="col-md-7">
         <div class="section-subheading">{{ "Short curriculum" | markdownify }}</div>
@@ -147,6 +147,23 @@
         </ul>
       </div>
       {{ end }}
+      {{ with $person.academic }}
+      <div class="col-md">
+        <div class="section-subheading">{{ "Academic service" | markdownify }}</div>
+        <ul class="ul-edu fa-ul mb-0">
+          {{ range .services }}
+          <li>
+            <i class="fa-li fa-solid fa-file-pen"></i>
+            <div class="description">
+              <p class="course">{{ .position }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ .conference }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
     </div>
   </div>
 </div>

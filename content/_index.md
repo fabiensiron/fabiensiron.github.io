@@ -103,9 +103,9 @@ sections:
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: Asterios Technologies, 16 avenue Carnot
-        city: Massy
-        postcode: '91300'
+        street: CEA List, 2 Bd Thomas Gobert
+        city: Palaiseau
+        postcode: '91120'
         country: France
         # region: CA
         # country_code: US
@@ -115,8 +115,8 @@ sections:
       #  - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-       latitude: '48.729168116714966'
-       longitude: '2.266332168976884'
+       latitude: '48.71281249519746'
+       longitude: '2.1935292344717006'
       # contact_links:
       #   - icon: twitter
       #     icon_pack: fab

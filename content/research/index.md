@@ -25,8 +25,9 @@ sections:
         I'm working on intermediate techniques between timed automata approaches,
         and more traditional symbolic approaches such as SAT and BDD. In my thesis,
         I proposed
-        temporal optimization techniques for PsyC in order to use SAT and
-        BDD approaches.
+        temporal optimization techniques for PsyC dedicated to SAT model-checking.
+        Currently, I try to understand how techniques based on abstract interpretation,
+        weakest preconditions and model-checking can be combined.
 
         Implementation of real-time systems
         : Finally, I'm also interested in the implementation of these systems,
@@ -35,7 +36,7 @@ sections:
         **Krono-Safe**), verifying implementation artifacts such as the
         scheduling plan, or the sizing of communications.
 
-        **university application** (*qualification* CNU): : [link](../uploads/cnu.pdf)
+        **university application** (*qualification* CNU) : [link](../uploads/cnu.pdf)
     design:
       columns: '2'
   - block: markdown
