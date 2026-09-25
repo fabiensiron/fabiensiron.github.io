@@ -1,10 +1,10 @@
 ---
-title: CoqSAT
-summary: A toy **SAT solver** implemented and formally verified using the **Coq** proof assistant.
-date: '2020-12-01T00:00:00Z'
+title: Kind2-SMC
+summary: Extension of the **Kind2** synchronous model checker with **Statistical Model Checking (SMC)**
+date: '2026-08-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://github.com/fabiensiron/coqsat'
+external_link: 'https://github.com/fabiensiron/kind2-smc'
 
 image:
   focal_point: Smart
@@ -14,7 +14,7 @@ image:
 #     icon_pack: fab
 #     name: Follow
 #     url: https://twitter.com/georgecushen
-url_code: 'https://github.com/fabiensiron/coqsat'
+url_code: 'https://github.com/fabiensiron/kind2-smc'
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -27,4 +27,4 @@ url_video: ''
 # slides: example
 ---
 
-CoqSAT is an attempt to make a *highly simple* SAT solver but proven using **Coq**.
+Fork of Kind2 extended with Statistical Model Checking feature (SMC).

@@ -99,7 +99,7 @@ sections:
       subtitle:
       text: |-
       # Contact (add or remove contact options as necessary)
-      email: fabien.siron@epita.fr
+      email: fabien.siron@cea.fr
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:

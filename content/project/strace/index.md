@@ -1,6 +1,6 @@
 ---
 title: strace
-summary: "Implementation of the initial Netlink support in the strace utility, the **Linux** system tracer. This project, implemented in **C**, was funded by the Google Summer of Code (GSoC) program."
+summary: "Contribution of initial **Netlink** support to **strace**, the Linux system-call tracer, developed in **C** as part of the **Google Summer of Code**."
 date: '2016-09-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

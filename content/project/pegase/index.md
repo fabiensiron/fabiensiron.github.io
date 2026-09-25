@@ -1,7 +1,7 @@
 ---
 title: Pegase
 summary: "Design and implementation of a digital circuit simulator accelerated by a graphics processing unit (**GPU**). The tool generates scheduled gate-level clusters synchronized with time barriers. It is implemented in **Python**, **C++** with **GPU** kernels using **OpenCL**. This project was my end-of-studies engineering project."
-date: '2019-02-01T00:00:00Z'
+date: '2030-02-01T00:00:00Z' # deactivated for now
 
 # Optional external URL for project (replaces project detail page).
 external_link: 'https://bitbucket.org/Saruta_/gpgpu_accelerated_gl_simulator/'

@@ -1,5 +1,5 @@
 ---
-title: 'My Research'
+title: 'Research'
 
 type: landing
 
@@ -8,99 +8,173 @@ sections:
     content:
       title: Research Interests
       text: |2-
-        Models and Languages for real-time systems
-        : I'm interested in languages and models based on the logical
-        time concept and on synchronous-reactive approaches. I've worked
-        on the PsyC language, the CCSL specification language and more traditional
-        synchronous languages such as Lustre and Esterel. In my thesis, I
-        proposed two levels of equivalent semantics descriptions
-        for PsyC, which allowed me to define
-        a framework combining Synchronous-Reactive and Logical
-        Execution Time called **Synchronous Logical Execution
-        Time (or synchronous LET)**.
+        My research focuses on the formal verification of reactive and real-time
+        software, at the intersection of programming languages, synchronous
+        models, program analysis, and automated verification.
 
-        Formal verification for real-time systems
-        : I'm interested in adapting formal verification techniques to
-        reactive systems, particularly technics based on **Model-Checking**.
-        I'm working on intermediate techniques between timed automata approaches,
-        and more traditional symbolic approaches such as SAT and BDD. In my thesis,
-        I proposed
-        temporal optimization techniques for PsyC dedicated to SAT model-checking.
-        Currently, I try to understand how techniques based on abstract interpretation,
-        weakest preconditions and model-checking can be combined.
+        One of the primary goals of my work is to bridge the gap between
+        **implementation-level software** and models used for verification.
+        I am particularly interested in approaches that combine
+        several verification techniques rather than relying on a single formalism.
 
-        Implementation of real-time systems
-        : Finally, I'm also interested in the implementation of these systems,
-        whether in terms of compilation or scheduling analysis. I was able to
-        participate in the design of a **validation tool** (in the context of
-        **Krono-Safe**), verifying implementation artifacts such as the
-        scheduling plan, or the sizing of communications.
+        #### Languages, semantics, and execution models for reactive systems
 
-        **university application** (*qualification* CNU) : [link](../uploads/cnu.pdf)
+        I work on programming languages and execution models based on
+        **logical time**, particularly **Synchronous-Reactive** and
+        **Logical Execution Time (LET)** approaches.
+
+        My doctoral work focused on the **PsyC** real-time language and led to
+        the definition of the **Synchronous Logical Execution Time (sLET)**
+        framework, connecting LET-based execution models with traditional
+        synchronous languages such as **Lustre** and **Esterel**.
+
+        More generally, I am interested in language semantics and execution
+        models that make the temporal behavior of reactive systems explicit
+        while remaining suitable for efficient implementation on real-time
+        platforms.
+
+        #### Verification from reactive systems
+
+        A second research direction concerns the verification of reactive
+        software directly from its implementation.
+
+        At **CEA List**, I contribute to
+        [**Frama-C/Synchrone**](https://frama-c.com/fc-plugins/synchrone.html),
+        which extracts synchronous **Lustre** models from reactive C programs.
+        The extraction combines symbolic program analysis, deductive reasoning,
+        and abstract interpretation in order to construct models suitable for
+        verification with synchronous model checkers.
+
+        This work investigates how implementation-level reasoning and
+        model-based verification can be combined while preserving a precise
+        semantic relation between the original program and the extracted model.
+
+        #### Verification algorithms and proof strategies
+
+        I am also interested in verification algorithms for reactive systems
+        and in the broader question of how complex verification tasks should be
+        organized.
+
+        My work has involved symbolic **model checking** based on SAT and BDDs,
+        deductive verification, abstract interpretation, constraint-based
+        verification, and more recently **Statistical Model Checking**.
+
+        A particular research interest is the development of **modular
+        verification strategies** combining complementary techniques. Complex
+        safety properties often require intermediate invariants, decomposition,
+        auxiliary lemmas, or specialized reasoning procedures rather than a
+        single monolithic model-checking query. I am therefore interested both
+        in verification algorithms themselves and in the strategies used to
+        orchestrate them.
+
     design:
       columns: '2'
   - block: markdown
     content:
-      title: PhD thesis
+      title: Current Research
       text: |2-
-        ## Subject and Jury
-        - **Subject**: Methodology for the formal verification of temporal properties for real-time safety-critical applications based on logical time.
-        - **Academic supervisers**: Dumitru Potop-Butucaru and Robert De Simone from *Centre Inria d'Université Côte d'Azur*.
-        - **Industrial supervisers**: Damien Chabrol and Amira Methni from *Krono-Safe* (now called *Asterios Technologies*).
-        - **Reviewers**: Reinhard Von Hanxleden from *Kiel University* and Pierre-Loïc Garoche from *École Nationale de l’Aviation Civile*.
-        - **Examiners**: Timothy Bourke from *Centre Inria de Paris*.
-        - **Slides**: [link](../uploads/slides_thesis.pdf)
-        ## Abstract
-        Safety-critical real-time systems have to respect strict timing
-        constraints. Thus, timing constraints must be considered throughout the software
-        development cycle. As exact computation execution time are generally not known
-        during design, logical time provides a way to abstract time constraints and
-        execution from platform-dependent physical time.
+        My current work develops these themes along several complementary
+        directions.
 
-        In this thesis, we focus on two main formalisms based on logical time:
-        - The Synchronous-Reactive
-        approach totally abstracts physical time by discrete time bases on which
-        computations are triggered.
-        - The Logical Execution Time approach uses logical time
-        bases to represent not only triggering instants but also the durations of
-        elementary computations.
+        #### Verification of reactive C programs
+        
+        I work on the extraction of synchronous models from C programs within
+        **Frama-C/Synchrone**, combining Frama-C analyses with synchronous
+        model checking. This includes questions related to symbolic model
+        extraction, modularity, memory abstraction, and the verification of
+        multi-cycle reactive behavior.
 
-        We start by unifying Synchronous-Reactive
-        and Logical Execution Time approaches. This provides the natural formal framework
-        for defining the semantics of PSYC, an expressive industrial real-time language.
-        We define two formal semantics for PsyC:
-        1. a native big-step semantics preserving
-        the logical durations of time intervals defined by structural operational rules
-        and;
-        2. a synchronous small-step semantics defined by translation to a
-        Synchronous-Reactive language expanding time interval durations to a succession
-        of atomic transitions.
+        #### Modular verification and proof strategies
+        
+        I investigate combinations of **deductive verification**, static
+        analysis, and **model checking** for reactive systems. The objective is
+        to move toward verification methodologies in which different parts of
+        a system, or different proof obligations, can be handled using the most
+        appropriate reasoning technique.
 
-        We show that the two semantics definitions are equivalent.
-        This formalization of the PsyC semantics enables us to define a formal verification
-        methodology for PSYC based on symbolic model-checking. To reduce
-        the state space during model-checking, we also define an optimization technique
-        inspired by timed automata model-checking. Finally, we show how to encode
-        high-level timing requirements into a clock constraint specification
-        language — CCSL — which are then translated to synchronous observers.
+        #### Verification algorithms
+        
+        I am interested in alternative approaches to exhaustive symbolic model
+        checking, including constraint-based techniques and statistical model
+        checking, and in their integration with SMT-based verification
+        frameworks.
 
-        > *Link to the thesis is available below in the publication list*
+        #### Reactive and real-time execution models
+        
+        Finally, I continue to investigate the relationship between synchronous
+        execution, logical-time abstractions, and real-time implementation,
+        including multi-rate and multi-task execution models.
+
     design:
       columns: '2'
+
   - block: markdown
     content:
-      title: Main publications
-      text: >
-          <iframe
-            frameborder="0" style="border:0"
-            width="100%"
-            height="570"
-            id="Publis"
-            src="https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Fabien+Siron&CB_auteur=oui&CB_titre=oui&CB_article=oui&CB_DOI=oui&CB_typdoc=oui&CB_vignette=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/styles_publicationsHAL.css"
-            allowfullscreen>
-          </iframe>
+      title: PhD Thesis
+      text: |2-
+        ### Formal Verification of Real-Time Programs Based on Logical Time
+
+        I received my PhD in Computer Science from **Université Côte d'Azur**
+        in December 2023. The thesis was conducted within the
+        **Inria KAIROS** team as a CIFRE collaboration with
+        **Krono-Safe/Asterios Technologies**.
+
+        **Thesis title:**
+        *Methodology for the Formal Verification of Temporal Properties for
+        Safety-Critical Real-Time Applications Based on Logical Time*
+
+        - **Academic supervisors**: Dumitru Potop-Butucaru and Robert De Simone from *Centre Inria d'Université Côte d'Azur*.
+        - **Industrial supervisors**: Damien Chabrol and Amira Methni from *Krono-Safe* (now called *Asterios Technologies*).
+        - **Reviewers**: Reinhard Von Hanxleden from *Kiel University* and Pierre-Loïc Garoche from *École Nationale de l’Aviation Civile*.
+        - **Examiner**: Timothy Bourke from *Centre Inria de Paris*.
+
+        The thesis investigated the relationship between two major logical-time
+        paradigms used for real-time and reactive systems:
+
+        * the **Synchronous-Reactive** model, in which computation evolves
+          according to discrete logical instants;
+        * **Logical Execution Time (LET)**, in which logical time additionally
+          captures the duration assigned to computations.
+
+        The main contributions include:
+
+        * the **Synchronous Logical Execution Time (sLET)** framework,
+          combining synchronous-reactive and LET concepts;
+        * two formal semantics for the industrial **PsyC** language:
+          a native big-step semantics preserving logical durations and a
+          synchronous small-step semantics;
+        * a proof of equivalence between these semantic descriptions;
+        * a formal verification methodology for PsyC based on translation to
+          synchronous models and symbolic model checking;
+        * temporal abstraction techniques for reducing verification cost;
+        * the specification of high-level timing requirements using **CCSL**
+          and their translation into synchronous observers.
+
+        **[PhD defense slides](../uploads/slides_thesis.pdf)**
+
+        > The thesis manuscript and associated publications are available in
+        > the publication list below.
+
     design:
       columns: '2'
+  - block: collection
+    id: publications
+    content:
+      title: Selected Publications
+      count: 6
+      filters:
+        folders:
+          - publication
+        featured_only: true
+      sort_by: Date
+      sort_ascending: false
+      archive:
+        enable: true
+        text: All publications
+        link: /publication/
+    design:
+      columns: '2'
+      view: citation
   - block: collection
     id: talks
     content:
@@ -111,5 +185,20 @@ sections:
     design:
       columns: '2'
       view: compact
-
 ---
+  <!-- - block: markdown -->
+  <!--   content: -->
+  <!--     title: Main publications -->
+  <!--     text: > -->
+  <!--         <iframe -->
+  <!--           frameborder="0" style="border:0" -->
+  <!--           width="100%" -->
+  <!--           height="570" -->
+  <!--           id="Publis" -->
+  <!--           src="https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Fabien+Siron&CB_auteur=oui&CB_titre=oui&CB_article=oui&CB_DOI=oui&CB_typdoc=oui&CB_vignette=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/styles_publicationsHAL.css" -->
+  <!--           allowfullscreen> -->
+  <!--         </iframe> -->
+  <!--   design: -->
+  <!--     columns: '2' -->
+
+

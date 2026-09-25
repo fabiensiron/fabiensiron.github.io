@@ -1,6 +1,6 @@
 ---
 title: PsykAnalyst
-summary: "Implementation of the methodology proposed in my doctoral thesis: a formal verification tool for the PsyC language based on **SAT** and **BDD** model-checkers. The project is implemented mainly in **OCaml** and makes extensive use of the synchronous language **Lustre**, in particular as an intermediate representation."
+summary: "Formal verification tool for the **PsyC** real-time language, developed during my PhD. It translates PsyC programs into synchronous models and verifies temporal properties using symbolic model checking."
 date: '2023-12-31T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

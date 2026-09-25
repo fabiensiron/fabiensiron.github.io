@@ -156,7 +156,11 @@
             <i class="fa-li fa-solid fa-file-pen"></i>
             <div class="description">
               <p class="course">{{ .position }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .conference }}</p>
+              <p class="institution">
+                {{ with .url }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener">{{ end }}
+                {{ .conference }}
+                {{ if .url }}</a>{{ end }}
+              </p>
             </div>
           </li>
           {{ end }}

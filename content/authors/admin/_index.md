@@ -10,8 +10,8 @@ first_name: Fabien
 last_name: Siron
 
 # Status emoji
-# status:
-#   icon: ☕️
+status:
+   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -30,14 +30,14 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include real-time systems (more broadly cyber-physical systems) and formal methods.
+bio: Research engineer working on formal verification, synchronous-reactive systems and safety-critical real-time software.
 
 # Interests to show in About widget
 interests:
-  - Cyber-Physical Systems
-  - Synchronous languages
-  - Formal Methods
-  - Real-Time
+  - Formal Verification
+  - Synchronous-Reactive Systems
+  - Real-Time Systems
+  - Program Analysis
 
 # Education to show in About widget
 education:
@@ -57,7 +57,7 @@ experience:
   - poste: Part-time Lecturer
     institution: Embedded & Real-Time Systems specialization - EPITA
     year: since 2022
-  - poste: Software Engineer
+  - poste: Software Engineer, R&D
     institution: Asterios Technologies - Safran Group
     year: 2019-2025
   #- poste: PhD thesis (CIFRE)
@@ -66,15 +66,22 @@ experience:
 
 academic:
   services:
+  - position: Artifact Committee 
+    conference: Int. Symposium on Formal Methods
+    year: FM'26
+    url: https://conf.researchr.org/committee/fm-2026/fm-2026-artifact-evaluation-artifact-evaluation-committee
   - position: Program Committee
     conference: Euro Conference on Real-Time Systems
     year: ECRTS'26
-  - position: Program Committee
+    url: https://www.ecrts.org/organizers/
+  - position: Program Committee # https://rtns2025.hotcrp.com/users/pc)
     conference: Real-Time Networks and Systems
     year: RTNS'25
-  - position: Artifact Committee
+    url: https://rtns2025.hotcrp.com/users/pc
+  - position: Artifact Committee #https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee)
     conference: Software on Language Engineering
     year: SLE'25
+    url: https://conf.researchr.org/committee/sle-2025/sle-2025-papers-artifact-evaluation-committee
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -111,21 +118,25 @@ skills:
       #  percent: 80
       #  icon: code
       #  icon_pack: fas
-  - name: Skills
+  - name: Research
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Cyber-Physical Systems
+      - name: Formal Verification
         description: ''
-        percent: 70
-        icon: microchip
+        percent: 90
+        icon: subscript
         icon_pack: fas
+      #- name: Artificial Intelligence
+      #  percent: 5
+      #  icon: brain
+      #  icon_pack: fas
       #- name: Real-Time
       #  description: ''
       #  percent: 95
       #  icon: clock
       #  icon_pack: fas
-      - name: Synchronous-reactive languages
+      - name: Synchronous-Reactive Systems
         description: ''
         percent: 95
         icon: stopwatch
@@ -135,15 +146,25 @@ skills:
       #  percent: 70
       #  icon: server
       #  icon_pack: fas
-      - name: Formal Methods
+      - name: Cyber-Physical Systems
         description: ''
         percent: 80
-        icon: subscript
+        icon: microchip
         icon_pack: fas
-      #- name: Artificial Intelligence
-      #  percent: 5
-      #  icon: brain
-      #  icon_pack: fas
+  - name: Languages
+    color: '#8eac02'
+    color_border: '#80bf23'
+    items:
+      - name: French
+        description: ''
+        percent: 100
+        icon: language
+        icon_pack: fas
+      - name: English
+        description: ''
+        percent: 90
+        icon: language
+        icon_pack: fas
   - name: Hobbies
     color: '#9e0e02'
     color_border: '#9e0e23'
@@ -163,20 +184,6 @@ skills:
       #  percent: 50
       #  icon: camera-retro
       #  icon_pack: fas
-  - name: Languages
-    color: '#8eac02'
-    color_border: '#80bf23'
-    items:
-      - name: French
-        description: ''
-        percent: 100
-        icon: language
-        icon_pack: fas
-      - name: English
-        description: ''
-        percent: 80
-        icon: language
-        icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -212,19 +219,30 @@ social:
 highlight_name: true
 ---
 
-I am a Research Engineer at the *Software Safety and Security
-Laboratory* of the **CEA List** Institute, where I work on
-the formal verification of safety-critical real-time systems
-in the context of the **Frama-C** platform.
-I hold a PhD in Computer Science, focusing on synchronous languages
-and formal verification, conducted in collaboration with **Inria**
-(KAIROS team) and **Asterios Technologies**, a **CEA** spinoff now
-part of the **SAFRAN** group.
+I am a Research Engineer in the *Software Safety and Security
+Laboratory* at the **CEA List** Institute, where I work on
+the formal verification of safety-critical and real-time systems,
+within the  **Frama-C** platform and, more specifically, on the
+[Frama-C/Synchrone](https://frama-c.com/fc-plugins/synchrone.html) plugin.
+
+My research interests lies at the intersection of **formal methods**,
+**synchronous-reactive systems**, **program analysis**, and **real-time systems**.
+I am particularly interested in techniques that bridge the gap between
+implementation-level software and formal models, combining static analysis,
+deductive reasoning, and model checking for the verification of reactive
+safety-critical systems.
+
+I received a PhD in Computer Science from the *Centre Inria of Université Côte d'Azur*
+in 2023, in collaboration with the **Inria KAIROS** team and
+**Asterios Technologies (Safran group)**. My doctoral research focused
+on the semantics and formal verification of real-time programs based
+on the synchronous Logical Execution Time paradigm and synchronous-reactive models
+([2023 KAIROS activity report](https://radar.inria.fr/report/2023/kairos/index.html)).
+
 In addition, I am a part-time lecturer at
-**EPITA**, teaching in the Embedded and Real-Time Systems
-specialization, GISTRE.  My research interests lie at the intersection
-of safety and security for real-time software, with a focus on
-formal methods and their industrial applications.
+**EPITA**, where I teach in the *Embedded and Real-Time Systems*
+specialization, with courses covering *software testing*, *static analysis*,
+*formal verification*, and the *validation* of safety-critical software.
 
 {style="text-align: justify;"}
 

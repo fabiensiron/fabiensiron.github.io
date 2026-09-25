@@ -1,6 +1,6 @@
 ---
 title: CLOCK
-summary: "CLOCK (Copilot of Logical Operational Constraint Kernels) is an implementation of a **CCSL** simulator based on a **SAT** solver with several heuristics. The project is implemented in **OCaml** and is compatible with the **VCD** format and the **GtkWave** tool. It is also possible to generate synchronous observers in Lustre."
+summary: "SAT-based simulator and analysis tool for **CCSL** logical-clock constraints, implemented in **OCaml**, with VCD/GtkWave support and generation of synchronous Lustre observers."
 date: '2021-12-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
